@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Tue, 06 Feb 2024 17:18:32 +0000
+Source: r-bioc-ontoproc
+Binary: r-bioc-ontoproc
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.25.6001-1
+Distribution: UNRELEASED
+Urgency: medium
+Maintainer: Bioc GHA Build <maintainer@bioconductor.org>
+Changed-By: Bioc GHA Build <maintainer@bioconductor.org>
+Description:
+ r-bioc-ontoproc - processing of ontologies of anatomy, cell lines, and so on
+Changes:
+ r-bioc-ontoproc (1.25.6001-1) UNRELEASED; urgency=medium
+ .
+   * Initial release (closes: #xxxxxx)
+Checksums-Sha1:
+ b8caf9ec1e035a411e64d008c1b57d227c3ee8bf 15496 r-bioc-ontoproc_1.25.6001-1_amd64.buildinfo
+ eece5e68f8aae3dd3779b8dfb0beb0654bb25601 8865812 r-bioc-ontoproc_1.25.6001-1_amd64.deb
+Checksums-Sha256:
+ d480278427956f5945fde402b22aeba83d2244b2b8ff0143e72298db243286ac 15496 r-bioc-ontoproc_1.25.6001-1_amd64.buildinfo
+ 33721dfce7baa188289c1dcac77ed4fb3523be75bf35dbba3743bfe2d20f9981 8865812 r-bioc-ontoproc_1.25.6001-1_amd64.deb
+Files:
+ 165db0a693ab8319336b1183945bf70f 15496 gnu-r optional r-bioc-ontoproc_1.25.6001-1_amd64.buildinfo
+ a01e0299ae3e1bd39a2c59e087395fa0 8865812 gnu-r optional r-bioc-ontoproc_1.25.6001-1_amd64.deb
