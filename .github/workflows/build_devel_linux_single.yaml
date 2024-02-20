@@ -29,6 +29,10 @@ jobs:
           #- {type: 'binary-build', os: 'ubuntu-latest', container: 'ghcr.io/bioconductor/bioconductor_salt:devel-jammy-bioc-3.19-r-4.4.0', user: 'root'}
           #- {type: 'deb-build', os: 'ubuntu-latest', container: 'ghcr.io/bioconductor/bioc2u-builder:jammy-bioc-3.18-r-4.3.2', user: 'root'}
     steps:
+    
+      - name: Free root space
+        uses: almahmoud/free-root-space@main
+
       - uses: actions/checkout@v4
 
       - id: common
