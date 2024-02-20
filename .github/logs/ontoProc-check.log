@@ -1,0 +1,259 @@
+* using log directory '/home/runner/work/ontoProc/ontoProc.Rcheck'
+* using R Under development (unstable) (2024-02-17 r85935)
+* using platform: x86_64-pc-linux-gnu
+* R was compiled by
+    gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0
+    GNU Fortran (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0
+* running under: Ubuntu 22.04.3 LTS
+* using session charset: ASCII
+* checking for file 'ontoProc/DESCRIPTION' ... OK
+* this is package 'ontoProc' version '1.25.6001'
+* package encoding: UTF-8
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... NOTE
+Found the following hidden files and directories:
+  node_modules/.package-lock.json
+  node_modules/concat-map/.travis.yml
+  node_modules/delayed-stream/.npmignore
+  node_modules/events/.airtap.yml
+  node_modules/events/.travis.yml
+  node_modules/process/.eslintrc
+  node_modules/tr46/.npmignore
+  node_modules/tr46/lib/.gitkeep
+  node_modules/tunnel/.travis.yml
+  .github
+  node_modules/.bin
+  node_modules/@actions/core/node_modules/.bin
+  node_modules/@azure/core-http/node_modules/.bin
+  node_modules/@azure/ms-rest-js/node_modules/.bin
+  node_modules/balanced-match/.github
+  node_modules/events/.github
+  node_modules/tunnel/.idea
+These were most likely included in error. See section 'Package
+structure' in the 'Writing R Extensions' manual.
+* checking for portable file names ... NOTE
+Found the following non-portable file paths:
+  ontoProc/node_modules/@azure/core-auth/node_modules/@azure/abort-controller/dist-esm/src/AbortError.js
+  ontoProc/node_modules/@azure/core-auth/node_modules/@azure/abort-controller/dist-esm/src/AbortError.js.map
+  ontoProc/node_modules/@azure/core-auth/node_modules/@azure/abort-controller/dist-esm/src/AbortSignalLike.js
+  ontoProc/node_modules/@azure/core-auth/node_modules/@azure/abort-controller/dist-esm/src/AbortSignalLike.js.map
+  ontoProc/node_modules/@azure/core-auth/node_modules/@azure/abort-controller/dist-esm/src/index.js.map
+  ontoProc/node_modules/@azure/core-auth/node_modules/@azure/abort-controller/types/src/AbortError.d.ts
+  ontoProc/node_modules/@azure/core-auth/node_modules/@azure/abort-controller/types/src/AbortError.d.ts.map
+  ontoProc/node_modules/@azure/core-auth/node_modules/@azure/abort-controller/types/src/AbortSignalLike.d.ts
+  ontoProc/node_modules/@azure/core-auth/node_modules/@azure/abort-controller/types/src/AbortSignalLike.d.ts.map
+  ontoProc/node_modules/@azure/core-auth/node_modules/@azure/abort-controller/types/src/tsdoc-metadata.json
+  ontoProc/node_modules/@azure/core-http/dist-esm/src/credentials/basicAuthenticationCredentials.js.map
+  ontoProc/node_modules/@azure/core-http/dist-esm/src/policies/disableResponseDecompressionPolicy.browser.js
+  ontoProc/node_modules/@azure/core-http/dist-esm/src/policies/disableResponseDecompressionPolicy.browser.js.map
+  ontoProc/node_modules/@azure/core-http/dist-esm/src/policies/disableResponseDecompressionPolicy.js.map
+  ontoProc/node_modules/@azure/core-http/types/3.1/src/policies/disableResponseDecompressionPolicy.browser.d.ts
+  ontoProc/node_modules/@azure/core-http/types/3.1/src/policies/disableResponseDecompressionPolicy.d.ts
+  ontoProc/node_modules/@azure/core-http/types/latest/src/credentials/basicAuthenticationCredentials.d.ts
+  ontoProc/node_modules/@azure/core-http/types/latest/src/credentials/basicAuthenticationCredentials.d.ts.map
+  ontoProc/node_modules/@azure/core-http/types/latest/src/credentials/serviceClientCredentials.d.ts.map
+  ontoProc/node_modules/@azure/core-http/types/latest/src/policies/bearerTokenAuthenticationPolicy.d.ts
+  ontoProc/node_modules/@azure/core-http/types/latest/src/policies/bearerTokenAuthenticationPolicy.d.ts.map
+  ontoProc/node_modules/@azure/core-http/types/latest/src/policies/disableResponseDecompressionPolicy.browser.d.ts
+  ontoProc/node_modules/@azure/core-http/types/latest/src/policies/disableResponseDecompressionPolicy.browser.d.ts.map
+  ontoProc/node_modules/@azure/core-http/types/latest/src/policies/disableResponseDecompressionPolicy.d.ts
+  ontoProc/node_modules/@azure/core-http/types/latest/src/policies/disableResponseDecompressionPolicy.d.ts.map
+  ontoProc/node_modules/@azure/core-http/types/latest/src/policies/generateClientRequestIdPolicy.d.ts.map
+  ontoProc/node_modules/@azure/core-http/types/latest/src/policies/msRestUserAgentPolicy.browser.d.ts.map
+  ontoProc/node_modules/@azure/core-http/types/latest/src/policies/msRestUserAgentPolicy.native.d.ts.map
+  ontoProc/node_modules/@azure/core-lro/node_modules/@azure/abort-controller/dist-esm/src/AbortError.js
+  ontoProc/node_modules/@azure/core-lro/node_modules/@azure/abort-controller/dist-esm/src/AbortError.js.map
+  ontoProc/node_modules/@azure/core-lro/node_modules/@azure/abort-controller/dist-esm/src/AbortSignalLike.js
+  ontoProc/node_modules/@azure/core-lro/node_modules/@azure/abort-controller/dist-esm/src/AbortSignalLike.js.map
+  ontoProc/node_modules/@azure/core-lro/node_modules/@azure/abort-controller/types/src/AbortError.d.ts.map
+  ontoProc/node_modules/@azure/core-lro/node_modules/@azure/abort-controller/types/src/AbortSignalLike.d.ts
+  ontoProc/node_modules/@azure/core-lro/node_modules/@azure/abort-controller/types/src/AbortSignalLike.d.ts.map
+  ontoProc/node_modules/@azure/core-lro/node_modules/@azure/abort-controller/types/src/tsdoc-metadata.json
+  ontoProc/node_modules/@azure/core-util/node_modules/@azure/abort-controller/dist-esm/src/AbortError.js
+  ontoProc/node_modules/@azure/core-util/node_modules/@azure/abort-controller/dist-esm/src/AbortError.js.map
+  ontoProc/node_modules/@azure/core-util/node_modules/@azure/abort-controller/dist-esm/src/AbortSignalLike.js
+  ontoProc/node_modules/@azure/core-util/node_modules/@azure/abort-controller/dist-esm/src/AbortSignalLike.js.map
+  ontoProc/node_modules/@azure/core-util/node_modules/@azure/abort-controller/dist-esm/src/index.js.map
+  ontoProc/node_modules/@azure/core-util/node_modules/@azure/abort-controller/types/src/AbortError.d.ts
+  ontoProc/node_modules/@azure/core-util/node_modules/@azure/abort-controller/types/src/AbortError.d.ts.map
+  ontoProc/node_modules/@azure/core-util/node_modules/@azure/abort-controller/types/src/AbortSignalLike.d.ts
+  ontoProc/node_modules/@azure/core-util/node_modules/@azure/abort-controller/types/src/AbortSignalLike.d.ts.map
+  ontoProc/node_modules/@azure/core-util/node_modules/@azure/abort-controller/types/src/tsdoc-metadata.json
+  ontoProc/node_modules/@azure/ms-rest-js/es/lib/credentials/azureIdentityTokenCredentialAdapter.d.ts.map
+  ontoProc/node_modules/@azure/ms-rest-js/es/lib/credentials/azureIdentityTokenCredentialAdapter.js.map
+  ontoProc/node_modules/@azure/ms-rest-js/node_modules/tslib/test/validateModuleExportsMatchCommonJS/index.js
+  ontoProc/node_modules/@azure/ms-rest-js/node_modules/tslib/test/validateModuleExportsMatchCommonJS/package.json
+  ontoProc/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/BlobDownloadResponse.browser.js.map
+  ontoProc/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/StorageBrowserPolicyFactory.js.map
+  ontoProc/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/credentials/AnonymousCredential.js
+  ontoProc/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/credentials/AnonymousCredential.js.map
+  ontoProc/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/credentials/StorageSharedKeyCredential.browser.js
+  ontoProc/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/credentials/StorageSharedKeyCredential.browser.js.map
+  ontoProc/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/credentials/StorageSharedKeyCredential.js
+  ontoProc/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/credentials/StorageSharedKeyCredential.js.map
+  ontoProc/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/credentials/UserDelegationKeyCredential.browser.js
+  ontoProc/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/credentials/UserDelegationKeyCredential.browser.js.map
+  ontoProc/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/credentials/UserDelegationKeyCredential.js
+  ontoProc/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/credentials/UserDelegationKeyCredential.js.map
+  ontoProc/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/generated/src/models/index.js.map
+  ontoProc/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/generated/src/models/mappers.js.map
+  ontoProc/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/generated/src/models/parameters.js
+  ontoProc/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/generated/src/models/parameters.js.map
+  ontoProc/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/generated/src/operations/appendBlob.js
+  ontoProc/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/generated/src/operations/appendBlob.js.map
+  ontoProc/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/generated/src/operations/blob.js.map
+  ontoProc/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/generated/src/operations/blockBlob.js
+  ontoProc/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/generated/src/operations/blockBlob.js.map
+  ontoProc/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/generated/src/operations/container.js
+  ontoProc/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/generated/src/operations/container.js.map
+  ontoProc/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/generated/src/operations/index.js
+  ontoProc/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/generated/src/operations/index.js.map
+  ontoProc/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/generated/src/operations/pageBlob.js
+  ontoProc/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/generated/src/operations/pageBlob.js.map
+  ontoProc/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/generated/src/operations/service.js
+  ontoProc/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/generated/src/operations/service.js.map
+  ontoProc/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/generated/src/storageClient.js.map
+  ontoProc/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/generated/src/storageClientContext.js
+  ontoProc/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/generated/src/storageClientContext.js.map
+  ontoProc/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/policies/AnonymousCredentialPolicy.js
+  ontoProc/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/policies/AnonymousCredentialPolicy.js.map
+  ontoProc/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/policies/StorageBearerTokenChallengeAuthenticationPolicy.js
+  ontoProc/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/policies/StorageBearerTokenChallengeAuthenticationPolicy.js.map
+  ontoProc/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/policies/StorageBrowserPolicy.js.map
+  ontoProc/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/policies/StorageRetryPolicy.js.map
+  ontoProc/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/policies/StorageSharedKeyCredentialPolicy.js
+  ontoProc/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/policies/StorageSharedKeyCredentialPolicy.js.map
+  ontoProc/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/pollers/BlobStartCopyFromUrlPoller.js
+  ontoProc/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/pollers/BlobStartCopyFromUrlPoller.js.map
+  ontoProc/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/sas/AccountSASResourceTypes.js.map
+  ontoProc/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/sas/AccountSASSignatureValues.js.map
+  ontoProc/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/sas/BlobSASSignatureValues.js.map
+  ontoProc/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/sas/ContainerSASPermissions.js.map
+  ontoProc/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/utils/BlobQuickQueryStream.js.map
+  ontoProc/node_modules/@azure/storage-blob/dist-esm/storage-blob/src/utils/RetriableReadableStream.js.map
+  ontoProc/node_modules/@azure/storage-blob/dist-esm/storage-internal-avro/src/AvroReadableFromBlob.js.map
+  ontoProc/node_modules/@azure/storage-blob/dist-esm/storage-internal-avro/src/AvroReadableFromStream.js
+  ontoProc/node_modules/@azure/storage-blob/dist-esm/storage-internal-avro/src/AvroReadableFromStream.js.map
+  ontoProc/node_modules/@azure/storage-blob/dist-esm/storage-internal-avro/src/utils/utils.common.js.map
+
+Tarballs are only required to store paths of up to 100 bytes and cannot
+store those of more than 256 bytes, with restrictions including to 100
+bytes for the final component.
+See section 'Package structure' in the 'Writing R Extensions' manual.
+* checking for sufficient/correct file permissions ... OK
+* checking whether package 'ontoProc' can be installed ... OK
+* checking installed package size ... NOTE
+  installed size is 10.0Mb
+  sub-directories of 1Mb or more:
+    app       1.9Mb
+    data      1.8Mb
+    ontoRda   2.8Mb
+    owl       2.9Mb
+* checking package directory ... OK
+* checking 'build' directory ... OK
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... NOTE
+CLfeat : prupdate: no visible binding for global variable 'PROSYM'
+CLfeat : prupdate: no visible binding for global variable 'PRID'
+CLfeat : prupdate: no visible binding for global variable 'SYMBOL'
+ctmarks : server: no visible binding for global variable 'text'
+ctmarks : server: no visible binding for global variable 'packDesc2022'
+ctmarks : server: no visible binding for global variable 'packDesc2021'
+ctmarks: no visible binding for global variable 'cumu'
+dropStop: no visible binding for global variable 'stopWords'
+getOnto: no visible binding for global variable 'rdatadateadded'
+getOnto: no visible binding for global variable 'title'
+getOnto: no visible binding for global variable 'description'
+ldfToTerm: no visible binding for global variable 'PROSYM'
+sym2CellOnto: no visible binding for global variable 'PROSYM'
+sym2CellOnto: no visible binding for global variable 'SYMBOL'
+Undefined global functions or variables:
+  PRID PROSYM SYMBOL cumu description packDesc2021 packDesc2022
+  rdatadateadded stopWords text title
+Consider adding
+  importFrom("graphics", "text", "title")
+to your NAMESPACE file.
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... OK
+* checking Rd \usage sections ... NOTE
+S3 methods shown with full name in Rd file 'plot.owlents.Rd':
+  'plot.owlents'
+
+The \usage entries for S3 methods should use the \method markup and not
+their full name.
+See chapter 'Writing R documentation files' in the 'Writing R
+Extensions' manual.
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking contents of 'data' directory ... OK
+* checking data for non-ASCII characters ... NOTE
+  Note: found 162 marked UTF-8 strings
+* checking data for ASCII and uncompressed saves ... OK
+* checking line endings in Makefiles ... OK
+* checking for GNU extensions in Makefiles ... WARNING
+Found the following file(s) containing GNU extensions:
+  node_modules/delayed-stream/Makefile
+Portable Makefiles do not use GNU extensions such as +=, :=, $(shell),
+$(wildcard), ifeq ... endif, .NOTPARALLEL See section 'Writing portable
+packages' in the 'Writing R Extensions' manual.
+* checking include directives in Makefiles ... OK
+* checking files in 'vignettes' ... OK
+* checking examples ... OK
+Examples with CPU (user + system) or elapsed time > 5s
+                      user system elapsed
+sym2CellOnto        25.965  0.604  27.562
+CLfeats             16.988  0.784  19.098
+siblings_TAG        14.010  0.429  15.628
+plot.owlents        11.373  0.537  11.021
+owl2cache           10.824  0.512  11.671
+common_classes       9.454  0.447  12.348
+ancestors            8.940  0.807  10.002
+getLeavesFromTerm    9.347  0.148   9.848
+cleanCLOnames        8.769  0.329   9.712
+fastGrep             8.237  0.132   8.910
+nomenCheckup         7.430  0.169   7.976
+liberalMap           6.047  0.152   6.562
+findCommonAncestors  4.803  0.184   5.504
+onto_plot2           4.640  0.172   5.203
+TermSet-class        4.526  0.232   5.179
+mapOneNaive          4.584  0.144   5.090
+secLevGen            4.333  0.191   5.142
+* checking for unstated dependencies in 'tests' ... OK
+* checking tests ...
+  Running 'test.R'
+ OK
+* checking for unstated dependencies in vignettes ... OK
+* checking package vignettes ... OK
+* checking re-building of vignette outputs ... OK
+* checking PDF version of manual ... OK
+* DONE
+
+Status: 1 WARNING, 6 NOTEs
+See
+  '/home/runner/work/ontoProc/ontoProc.Rcheck/00check.log'
+for details.
+
+
